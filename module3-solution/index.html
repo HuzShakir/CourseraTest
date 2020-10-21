@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Solution</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+ 
+     <style>
+         
+         
+         /* body{
+             background-color:#94abdb;
+         }
+         nav{
+             margin-bottom: 30px;
+         }
+         
+         #header-nav {
+            background-color: rgb(254, 255, 205);
+            border-radius: 0;
+            border: 0;
+        }       
+        .navbar-brand a:hover, .navbar-brand a:focus {
+            text-decoration: none;
+        }
+        a{
+            font-weight: bold;
+        }
+        .comp-name{
+            color:grey
+        }
+        .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+            border: 1px solid #11990f;
+        }
+        #nav-list {
+            margin-top: 10px;
+        }
+        #nav-list a {
+            color: #11990f;
+            text-align: center;
+        }
+        #nav-list a:hover {
+            background: #E7E7E7;
+        }
+        #nav-list a span {
+            font-size: 1.8em;
+        }
+        h1{
+            font-weight: bold;
+            color: rgb(131, 7, 248);
+            margin-bottom: 20px;
+        }
+        
+        .tiles{
+            height: 1000px;
+            border :1px solid black;
+            font-family: 'Lora', serif;
+            background-color: grey;   
+            margin-bottom:30px;
+            overflow: hidden;
+        }
+        .description{
+            font-style: italic;
+            margin-top: 20px;
+            font-size: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        h2{
+            font-weight: bold;
+            font-size: 2.5em;
+            margin-top: 0;
+        }
+         */
+
+         
+     </style>
+    </head>
+    <body>
+        <header>
+            <nav id="header-nav" class="navbar navbar-default">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#collapsable" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a class="navbar-brand" href="index.html"><div class="comp-name">Food,LLC</div></a>
+                  </div>
+                  <div id="collapsable" class="collapse navbar-collapse ">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right hidden-md hidden-lg hidden-sm">
+                     <li>
+                       <a href="#Chicken"> Chicken</a>
+                     </li>
+                     <li>
+                       <a href="#Beef">Beef</a>
+                     </li>
+                     <li>
+                       <a href="#Sushi">Sushi</a>
+                     </li>
+                     
+                     
+                   </ul>
+                 </div>
+                </div>
+            </nav>
+        </header>
+        <h1 class="text-center">Our Menu</h1>
+        <div  class="container">
+            <div class=" col-xs-12">
+                <div class="tiles">
+                <section id="Chicken" >
+                    <h2 class="text-center">Chicken</h2>
+                    <div  class="description">
+                        <p>
+                            Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile. To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section. Make sure its background color is set to distinguish it from the rest of the content. (Hint: don't forget to have an element with a class='container' or class='container-fluid' wrapping your grid. Remember that to have the grid do something "always", i.e., no matter what browser window size, use the col-xs-... classes. In this case, since we want the section to take up the entire row, use col-xs-12.)
+                        </p>
+                    </div>
+                </section>
+            </div>
+            </div>
+
+            <div class=" col-xs-12">
+                <div class="tiles">
+                <section id="Beef" >
+                    <h2 class="text-center">Beef</h2>
+                    <div  class="description">
+                        <p>
+                            Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile. To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section. Make sure its background color is set to distinguish it from the rest of the content. (Hint: don't forget to have an element with a class='container' or class='container-fluid' wrapping your grid. Remember that to have the grid do something "always", i.e., no matter what browser window size, use the col-xs-... classes. In this case, since we want the section to take up the entire row, use col-xs-12.)
+                        </p>
+                    </div>
+                </section>
+            </div>
+            </div>
+
+            <div class=" col-xs-12">
+                <div class="tiles">
+                <section id="Sushi">
+                    <h2 class="text-center">Sushi</h2>
+                    <div  class="description">
+                        <p>
+                            Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile. To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section. Make sure its background color is set to distinguish it from the rest of the content. (Hint: don't forget to have an element with a class='container' or class='container-fluid' wrapping your grid. Remember that to have the grid do something "always", i.e., no matter what browser window size, use the col-xs-... classes. In this case, since we want the section to take up the entire row, use col-xs-12.)
+                            
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+
+                  
+     <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>         
+    </body>
+</html>
